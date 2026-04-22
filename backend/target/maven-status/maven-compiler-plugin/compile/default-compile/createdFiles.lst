@@ -1,0 +1,7 @@
+com\ansh\portfolio\model\Education.class
+com\ansh\portfolio\service\PortfolioService.class
+com\ansh\portfolio\controller\PortfolioController.class
+com\ansh\portfolio\model\Project.class
+com\ansh\portfolio\model\ContactRequest.class
+com\ansh\portfolio\model\PortfolioResponse.class
+com\ansh\portfolio\PortfolioApplication.class

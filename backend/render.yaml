@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: ansh-portfolio-api
+    runtime: docker
+    plan: free
+    rootDir: backend
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
+    envVars:
+      - key: JAVA_TOOL_OPTIONS
+        value: -Dserver.port=$PORT
