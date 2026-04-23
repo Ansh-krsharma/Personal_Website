@@ -1,13 +1,7 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
-
-const repositoryName = process.env.GITHUB_REPOSITORY?.split('/')[1] || 'personal-website';
-const isGitHubPages = process.env.GITHUB_PAGES === 'true';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: isGitHubPages ? `/${repositoryName}/` : '/',
-  server: {
-    port: 5173
-  }
-});
+  base: '/Personal_Website/', // ⚠️ IMPORTANT (repo name)
+})
