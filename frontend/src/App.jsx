@@ -63,15 +63,15 @@ const fallbackPortfolio = {
     'Explored AI/ML and NLP through research-driven academic projects.'
   ],
   stats: [
-    { value: '3+', label: 'Years of Coding', icon: '</>' },
-    { value: '10+', label: 'Projects Completed', icon: '▣' },
+    { value: '2+', label: 'Years of Coding', icon: '</>' },
+    { value: '5+', label: 'Projects Completed', icon: '▣' },
     { value: '5+', label: 'Technologies', icon: '◔' },
-    { value: '100+', label: 'DSA Problems Solved', icon: '☕' }
+    { value: '50+', label: 'DSA Problems Solved', icon: '☕' }
   ]
 };
 
 const API_BASE = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8080/api';
-const RESUME_LINK = import.meta.env.VITE_RESUME_URL || '#contact';
+const RESUME_LINK = import.meta.env.VITE_RESUME_URL || 'https://drive.google.com/file/d/1jbxE5EfGjSDXfuQegkkLU6DmSx13ZabC/view?usp=drivesdk';
 
 const navItems = [
   { id: 'home', label: 'Home' },
@@ -126,7 +126,7 @@ function App() {
       'Hyperbolic Category Discovery': { glyph: '◈', tint: 'tint-ml' },
       'EV Review ABSA': { glyph: '▦', tint: 'tint-nlp' }
     }),
-    []
+    [https://github.com/Ansh-krsharma/Fitcart]
   );
 
   const handleChange = (event) => {
