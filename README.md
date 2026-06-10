@@ -1,6 +1,6 @@
 # 🚀 Ansh Kumar Sharma – Personal Portfolio Website
 
-A modern **Full Stack Developer Portfolio** built using **React + Vite (Frontend)** and **Java Spring Boot (Backend)**, designed with a sleek dark UI and deployed using **GitHub Pages / Vercel (Frontend)** and **Render (Backend)**.
+A modern **Full Stack Developer Portfolio** built using **React + Vite (Frontend)** and **Java Spring Boot (Backend)**, designed with a sleek dark UI and deployed using **GitHub Pages (Frontend)** and **Render (Backend)**.
 
 ---
 
@@ -18,7 +18,7 @@ A modern **Full Stack Developer Portfolio** built using **React + Vite (Frontend
 * 📊 Dynamic portfolio data from backend API
 * 📬 Contact form integrated with backend
 * 🚀 Fast performance using Vite
-* ☁️ Deploy-ready configuration (GitHub Pages, Vercel, Render)
+* ☁️ Deploy-ready configuration (GitHub Pages, Render)
 
 ---
 
