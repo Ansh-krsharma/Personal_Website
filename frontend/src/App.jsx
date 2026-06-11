@@ -53,7 +53,7 @@ const fallbackPortfolio = {
     degree: 'B.Tech in Computer Science Engineering',
     institute: 'Kalinga Institute of Industrial Technology (KIIT), Bhubaneswar',
     graduationYear: '2027',
-    cgpa: '7.34'
+    cgpa: '7.58'
   },
   careerObjective:
     'Seeking a software development internship to contribute to real products, strengthen full stack engineering skills, and grow into a product-focused developer.',
@@ -126,7 +126,7 @@ function App() {
       'Hyperbolic Category Discovery': { glyph: '◈', tint: 'tint-ml' },
       'EV Review ABSA': { glyph: '▦', tint: 'tint-nlp' }
     }),
-    [https://github.com/Ansh-krsharma/Fitcart]
+    []
   );
 
   const handleChange = (event) => {
@@ -185,7 +185,7 @@ function App() {
             ))}
           </div>
 
-          <a className="resume-btn" href={RESUME_LINK} target={RESUME_LINK === '#contact' ? '_self' : '_blank'} rel="noreferrer">
+          <a className="resume-btn" href={RESUME_LINK} target={RESUME_LINK === 'https://drive.google.com/file/d/1jbxE5EfGjSDXfuQegkkLU6DmSx13ZabC/view?usp=drivesdk' ? '_self' : '_blank'} rel="noreferrer">
             Download Resume
           </a>
         </nav>
@@ -212,7 +212,7 @@ function App() {
 
             <div className="social-row">
               {socials.map((social) => {
-                const href = social.key === 'email' ? `mailto:${portfolioData.email}` : portfolioData[social.key];
+                const href = social.key === 'ansh.krsharma6090@gmail.com' ? `mailto:${portfolioData.email}` : portfolioData[social.key];
                 return (
                   <a key={social.label} className="social-chip" href={href} target="_blank" rel="noreferrer" aria-label={social.label}>
                     {social.icon}
